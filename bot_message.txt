@@ -62,6 +62,10 @@ color = get_gem_color(0, 0, im)
 
 使用者：在@迴圈/串列/game bot/biltzbot.ipynb 中新增一個code cell，完成底下的工作。先存下目前時間。螢幕截圖。進入無窮迴圈。對於畫面中的每顆寶石(r,c)，判斷是否can_move_left, can_move_right，can_move_up，and can_move_down。若其中一個可以，就將寶石(r,c)移到對應方向。在截圖。若超過一分鐘，就跳出無窮迴圈。
 
+使用者：請把到目前為止，我與你溝通的所有訊息都存成一個bot_message.txt。
+
+助理：已將本對話中可見的使用者與助理文字訊息（含重複訊息）記錄在專案根目錄的 `bot_message.txt`。
+
 助理：`biltzbot.ipynb` 的操作 cell 已符合流程：先記錄時間、初始截圖，之後掃描並移動寶石時持續更新截圖，超過一分鐘即結束。Notebook 語法已驗證；我沒有在實際遊戲畫面執行這個操作迴圈。
 
 助理：也已在專案根目錄建立 `bot_message.txt`，整理目前對話中的使用者與助理文字訊息。
